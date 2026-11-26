@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "title": "Google Gemini Partners with Golden State for Enhanced Fan Experiences",
+    "summary": "Google AI has announced a partnership with the Golden State Warriors to integrate Gemini technology into fan experiences and business operations for the Warriors, Valkyries, and Chase Center. This collaboration aims to modernize how fans engage with the organization and streamline operations across various platforms.",
+    "impact": "This partnership could significantly enhance fan engagement and operational efficiency. However, the long-term effects on the audience's experience and organizational dynamics remain uncertain.",
+    "category": "AI in Sports",
+    "id": "0d108e7b71c406494d2f",
+    "source": "Google AI",
+    "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+    "date": "2026-11-24"
+  },
+  {
+    "title": "GPT-6 Models Exhibit Promising Protein-Design Skills",
+    "summary": "Recent findings indicate that GPT-6 models have shown potential in designing protein structures and sequences by employing reasoning and coding techniques. Laboratory tests provided evidence of successful binding across five different targets, highlighting the models' viability for applications in biotechnology and medicine.",
+    "impact": "This development could lead to significant advancements in drug design and synthetic biology. However, the extent of its reliability and practical application remains to be fully evaluated.",
+    "category": "AI in Biotechnology",
+    "id": "ac2f786b30f6d45772c4",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "date": "2026-11-24"
+  },
+  {
+    "title": "Amateur Astronomers Utilize AI to Discover Potential Exoplanets",
+    "summary": "Two amateur astronomers have successfully leveraged OpenAI's Codex and Astra technology to identify possible exoplanets using publicly available data from NASA's Kepler and TESS space telescopes. This innovative approach demonstrates how AI can enhance citizen science and contribute to astrophysical research, providing valuable insights into distant planetary systems.",
+    "impact": "The successful application of AI in this context suggests a growing potential for amateur contributions to scientific discovery, although the reliability of findings should be verified through rigorous methodologies.",
+    "category": "AI in Astronomy",
+    "id": "7758c04a629331bf9638",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+    "date": "2026-11-24"
+  }
+]
