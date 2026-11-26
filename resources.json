@@ -1,0 +1,550 @@
+{
+  "methodologies": [
+    {
+      "title": "AI fundamentals",
+      "slug": "fundamentals",
+      "category": "Beginner",
+      "summary": "Learn the distinction between AI, machine learning and deep learning.",
+      "url": "https://developers.google.com/machine-learning",
+      "details": [
+        [
+          "Implementation",
+          "Choose a measurable prediction task; split data into training, validation and test sets."
+        ],
+        [
+          "Validation and safety",
+          "Compare a simple baseline against a learned model; check errors and distribution shift."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "Large language models",
+      "slug": "llm",
+      "category": "Intermediate",
+      "summary": "Understand tokens, embeddings, transformers and inference.",
+      "url": "https://huggingface.co/learn/llm-course",
+      "details": [
+        [
+          "Implementation",
+          "Tokenize input, apply transformer layers and sample output tokens autoregressively."
+        ],
+        [
+          "Validation and safety",
+          "Evaluate on held-out tasks; account for context limits and hallucinations."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "Prompt engineering",
+      "slug": "prompt-engineering",
+      "category": "Beginner",
+      "summary": "Design instructions, examples and output contracts.",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "details": [
+        [
+          "Implementation",
+          "Specify task, context, constraints, examples and output format."
+        ],
+        [
+          "Validation and safety",
+          "Test against difficult examples and compare outputs using a rubric."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "Retrieval augmented generation",
+      "slug": "rag",
+      "category": "Advanced",
+      "summary": "Ground answers in retrieved source material.",
+      "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+      "details": [
+        [
+          "Implementation",
+          "Ingest approved documents, chunk and embed them; retrieve relevant passages and provide them to the model with citations."
+        ],
+        [
+          "Validation and safety",
+          "Measure retrieval recall and answer faithfulness; handle missing evidence explicitly."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "Agentic AI",
+      "slug": "agents",
+      "category": "Advanced",
+      "summary": "Build systems that plan and invoke tools.",
+      "url": "https://openai.github.io/openai-agents-python/",
+      "details": [
+        [
+          "Implementation",
+          "Define a bounded goal, permitted tools, state and stop conditions; require approval for consequential actions."
+        ],
+        [
+          "Validation and safety",
+          "Test tool failures, prompt injection and runaway loops; enforce budgets."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "Model Context Protocol",
+      "slug": "mcp",
+      "category": "Advanced",
+      "summary": "Connect models to tools and resources using a standard interface.",
+      "url": "https://modelcontextprotocol.io/",
+      "details": [
+        [
+          "Implementation",
+          "Configure a client and authorized servers; discover tools and validate arguments before execution."
+        ],
+        [
+          "Validation and safety",
+          "Apply least privilege, validate untrusted results and audit sensitive operations."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "Fine tuning and LoRA",
+      "slug": "fine-tuning",
+      "category": "Advanced",
+      "summary": "Adapt a model to a task with training examples.",
+      "url": "https://huggingface.co/docs/peft/",
+      "details": [
+        [
+          "Implementation",
+          "Prepare representative input/output examples; train parameter-efficient adapters and keep a held-out test set."
+        ],
+        [
+          "Validation and safety",
+          "Compare against prompting and RAG; check regressions and memorization."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "Multimodal AI",
+      "slug": "multimodal",
+      "category": "Intermediate",
+      "summary": "Work with text, images, audio and video.",
+      "url": "https://huggingface.co/learn",
+      "details": [
+        [
+          "Implementation",
+          "Choose models supporting required modalities and preprocess inputs according to their specifications."
+        ],
+        [
+          "Validation and safety",
+          "Evaluate each modality and cross-modal tasks; avoid exposing private media."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "LLMOps and evaluation",
+      "slug": "llmops",
+      "category": "Advanced",
+      "summary": "Operate AI applications reliably in production.",
+      "url": "https://cookbook.openai.com/",
+      "details": [
+        [
+          "Implementation",
+          "Version prompts, models and data; capture latency, cost and quality metrics."
+        ],
+        [
+          "Validation and safety",
+          "Use regression evaluations, redacted traces, rollback and monitoring."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "AI security",
+      "slug": "security",
+      "category": "Advanced",
+      "summary": "Defend AI systems against misuse and unsafe data access.",
+      "url": "https://genai.owasp.org/",
+      "details": [
+        [
+          "Implementation",
+          "Treat external content as untrusted; isolate credentials and restrict tool permissions."
+        ],
+        [
+          "Validation and safety",
+          "Red-team prompt injection, data leakage and unsafe tool execution."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "Vector search",
+      "slug": "vector-search",
+      "category": "Intermediate",
+      "summary": "Search documents by semantic similarity.",
+      "url": "https://www.pinecone.io/learn/",
+      "details": [
+        [
+          "Implementation",
+          "Embed documents and queries; combine nearest-neighbor search with metadata filters and lexical search."
+        ],
+        [
+          "Validation and safety",
+          "Measure retrieval recall and precision on representative queries."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    },
+    {
+      "title": "AI workflows",
+      "slug": "workflows",
+      "category": "Intermediate",
+      "summary": "Combine deterministic steps and model calls.",
+      "url": "https://docs.n8n.io/",
+      "details": [
+        [
+          "Implementation",
+          "Define triggers, schemas, routing, retries and human review points."
+        ],
+        [
+          "Validation and safety",
+          "Use idempotency keys and test failures before enabling schedules."
+        ],
+        [
+          "Hands-on exercise",
+          "Build a small prototype using public or synthetic data. Record the baseline, test cases, failures and improvements before scaling."
+        ]
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "title": "ChatGPT",
+      "category": "Assistants",
+      "summary": "General reasoning, writing and coding.",
+      "url": "https://chatgpt.com/"
+    },
+    {
+      "title": "Claude",
+      "category": "Assistants",
+      "summary": "Document analysis and coding.",
+      "url": "https://claude.ai/"
+    },
+    {
+      "title": "Gemini",
+      "category": "Assistants",
+      "summary": "Multimodal assistance.",
+      "url": "https://gemini.google.com/"
+    },
+    {
+      "title": "NotebookLM",
+      "category": "Research",
+      "summary": "Explore source documents and study material.",
+      "url": "https://notebooklm.google.com/"
+    },
+    {
+      "title": "Perplexity",
+      "category": "Research",
+      "summary": "Search-assisted research.",
+      "url": "https://www.perplexity.ai/"
+    },
+    {
+      "title": "Cursor",
+      "category": "Coding",
+      "summary": "AI-assisted code editor.",
+      "url": "https://cursor.com/"
+    },
+    {
+      "title": "GitHub Copilot",
+      "category": "Coding",
+      "summary": "Coding assistance.",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "title": "Claude Code",
+      "category": "Coding",
+      "summary": "Agentic coding workflows.",
+      "url": "https://www.anthropic.com/claude-code"
+    },
+    {
+      "title": "Ollama",
+      "category": "Local AI",
+      "summary": "Run supported language models locally.",
+      "url": "https://ollama.com/"
+    },
+    {
+      "title": "LM Studio",
+      "category": "Local AI",
+      "summary": "Local model experimentation.",
+      "url": "https://lmstudio.ai/"
+    },
+    {
+      "title": "n8n",
+      "category": "Automation",
+      "summary": "Design automated workflows.",
+      "url": "https://n8n.io/"
+    },
+    {
+      "title": "Hugging Face",
+      "category": "Models",
+      "summary": "Discover models and datasets.",
+      "url": "https://huggingface.co/"
+    },
+    {
+      "title": "Runway",
+      "category": "Creative",
+      "summary": "AI video creation.",
+      "url": "https://runwayml.com/"
+    },
+    {
+      "title": "ElevenLabs",
+      "category": "Audio",
+      "summary": "Speech and audio generation.",
+      "url": "https://elevenlabs.io/"
+    }
+  ],
+  "learn": [
+    {
+      "title": "Google ML Crash Course",
+      "category": "01 / Foundations",
+      "summary": "Learn regression, classification and model evaluation.",
+      "url": "https://developers.google.com/machine-learning/crash-course"
+    },
+    {
+      "title": "Kaggle Learn",
+      "category": "02 / Python",
+      "summary": "Practice Python and data science.",
+      "url": "https://www.kaggle.com/learn"
+    },
+    {
+      "title": "fast.ai",
+      "category": "03 / Deep learning",
+      "summary": "Build practical neural network applications.",
+      "url": "https://www.fast.ai/"
+    },
+    {
+      "title": "Hugging Face Learn",
+      "category": "04 / LLMs",
+      "summary": "Study transformers and open models.",
+      "url": "https://huggingface.co/learn"
+    },
+    {
+      "title": "DeepLearning.AI",
+      "category": "05 / GenAI",
+      "summary": "Explore AI courses and applications.",
+      "url": "https://www.deeplearning.ai/"
+    },
+    {
+      "title": "OpenAI Cookbook",
+      "category": "06 / Engineering",
+      "summary": "Build and evaluate AI applications.",
+      "url": "https://cookbook.openai.com/"
+    },
+    {
+      "title": "Trailhead",
+      "category": "07 / Enterprise",
+      "summary": "Explore Salesforce AI and Agentforce learning.",
+      "url": "https://trailhead.salesforce.com/"
+    },
+    {
+      "title": "Microsoft Learn",
+      "category": "08 / Cloud",
+      "summary": "Explore cloud AI engineering.",
+      "url": "https://learn.microsoft.com/training/"
+    }
+  ],
+  "research": [
+    {
+      "title": "arXiv AI",
+      "category": "Papers",
+      "summary": "Browse recent AI preprints; not all are peer reviewed.",
+      "url": "https://arxiv.org/list/cs.AI/recent"
+    },
+    {
+      "title": "arXiv ML",
+      "category": "Papers",
+      "summary": "Machine learning research.",
+      "url": "https://arxiv.org/list/cs.LG/recent"
+    },
+    {
+      "title": "OpenReview",
+      "category": "Papers",
+      "summary": "Research submissions and peer review where available.",
+      "url": "https://openreview.net/"
+    },
+    {
+      "title": "Hugging Face Papers",
+      "category": "Discovery",
+      "summary": "Discover papers and associated models.",
+      "url": "https://huggingface.co/papers"
+    },
+    {
+      "title": "OpenAI research",
+      "category": "Labs",
+      "summary": "Primary research announcements.",
+      "url": "https://openai.com/research/"
+    },
+    {
+      "title": "Google DeepMind",
+      "category": "Labs",
+      "summary": "AI research and announcements.",
+      "url": "https://deepmind.google/"
+    },
+    {
+      "title": "Anthropic research",
+      "category": "Labs",
+      "summary": "Research on AI capabilities and safety.",
+      "url": "https://www.anthropic.com/research"
+    }
+  ],
+  "developers": [
+    {
+      "title": "OpenAI API",
+      "category": "API",
+      "summary": "Model integration and tool use.",
+      "url": "https://platform.openai.com/docs/"
+    },
+    {
+      "title": "Anthropic docs",
+      "category": "API",
+      "summary": "Claude application development.",
+      "url": "https://docs.anthropic.com/"
+    },
+    {
+      "title": "Gemini API",
+      "category": "API",
+      "summary": "Build multimodal applications.",
+      "url": "https://ai.google.dev/"
+    },
+    {
+      "title": "LangGraph",
+      "category": "Agents",
+      "summary": "Stateful agent orchestration.",
+      "url": "https://docs.langchain.com/"
+    },
+    {
+      "title": "PyTorch",
+      "category": "ML",
+      "summary": "Train neural networks.",
+      "url": "https://pytorch.org/tutorials/"
+    },
+    {
+      "title": "MCP",
+      "category": "Integration",
+      "summary": "Connect tools and model applications.",
+      "url": "https://modelcontextprotocol.io/"
+    },
+    {
+      "title": "OWASP GenAI",
+      "category": "Security",
+      "summary": "Security guidance for generative AI.",
+      "url": "https://genai.owasp.org/"
+    }
+  ],
+  "prompts": [
+    {
+      "title": "Technical RCA",
+      "slug": "rca",
+      "category": "Support",
+      "summary": "Evidence-first troubleshooting.",
+      "url": "https://cookbook.openai.com/",
+      "details": [
+        [
+          "Copy this template",
+          "Analyze [redacted logs]. Create a timeline with timestamps and source lines. Separate facts, hypotheses and missing evidence. Propose safe verification steps before remediation."
+        ],
+        [
+          "Usage",
+          "Replace bracketed placeholders with approved data. Verify the answer and never include credentials or confidential data in unapproved systems."
+        ]
+      ]
+    },
+    {
+      "title": "Research brief",
+      "slug": "research-brief",
+      "category": "Research",
+      "summary": "Summarize sources without inventing facts.",
+      "url": "https://cookbook.openai.com/",
+      "details": [
+        [
+          "Copy this template",
+          "Using only [source excerpts], explain what happened, why it matters, limitations and open questions. Cite each claim to a source. Mark unsupported claims unknown."
+        ],
+        [
+          "Usage",
+          "Replace bracketed placeholders with approved data. Verify the answer and never include credentials or confidential data in unapproved systems."
+        ]
+      ]
+    },
+    {
+      "title": "Code review",
+      "slug": "code-review",
+      "category": "Coding",
+      "summary": "Review code for defects and security.",
+      "url": "https://cookbook.openai.com/",
+      "details": [
+        [
+          "Copy this template",
+          "Review [code] against [requirements]. List reproducible defects, severity, file locations, suggested changes and tests. Do not invent execution results."
+        ],
+        [
+          "Usage",
+          "Replace bracketed placeholders with approved data. Verify the answer and never include credentials or confidential data in unapproved systems."
+        ]
+      ]
+    },
+    {
+      "title": "Learning tutor",
+      "slug": "tutor",
+      "category": "Education",
+      "summary": "Learn a technical concept progressively.",
+      "url": "https://cookbook.openai.com/",
+      "details": [
+        [
+          "Copy this template",
+          "Teach [topic] from first principles. Give an analogy, architecture, worked example, pitfalls and three practice questions. Adapt to [skill level]."
+        ],
+        [
+          "Usage",
+          "Replace bracketed placeholders with approved data. Verify the answer and never include credentials or confidential data in unapproved systems."
+        ]
+      ]
+    }
+  ]
+}
