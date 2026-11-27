@@ -57,3 +57,13 @@ from pathlib import Path as _NaturalPath
 from natural_home import render as _render_natural
 _natural_root = _NaturalPath(__file__).resolve().parents[1]
 _render_natural(_natural_root, _natural_root / "dist")
+
+# TECHIEHACKER_ORIGINAL_PHOTO_EDITION_V1
+from pathlib import Path as _OriginalPhotoPath
+from author_release import render as _render_original_photos
+_original_photo_root = _OriginalPhotoPath(__file__).resolve().parents[1]
+_render_original_photos(_original_photo_root, _original_photo_root / "dist")
+
+# TECHIEHACKER_PREMIUM_INTERIORS_V1
+from premium_interiors import render as _render_premium_interiors
+_render_premium_interiors(_original_photo_root, _original_photo_root / "dist")

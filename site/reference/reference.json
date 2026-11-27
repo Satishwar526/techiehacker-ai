@@ -1,0 +1,18 @@
+{
+  "source_sha256": "f7e54ef433bd7fe206ebb1d8c58119830c488f4c1aaf0e27871c86cd90c3bdcc",
+  "asset_sha256": "499a06c54d509f1b5a0c54044d80cc355f643f27397ce06d19defa2bdacb8560",
+  "source_size": [
+    1672,
+    941
+  ],
+  "crop": [
+    0,
+    49,
+    1672,
+    941
+  ],
+  "homepage_size": [
+    1672,
+    892
+  ]
+}
