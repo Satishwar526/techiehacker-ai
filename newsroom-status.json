@@ -1,0 +1,108 @@
+{
+  "checked_at": "2026-11-27T11:14:04.659226+00:00",
+  "feeds": {
+    "OpenAI": {
+      "status": "Fetched",
+      "entries": 1430
+    },
+    "Google AI": {
+      "status": "Fetched",
+      "entries": 20
+    },
+    "Hugging Face": {
+      "status": "Fetched",
+      "entries": 918
+    },
+    "Google DeepMind": {
+      "status": "Fetched",
+      "entries": 100
+    },
+    "NVIDIA": {
+      "status": "Fetched",
+      "entries": 18
+    },
+    "AWS Machine Learning": {
+      "status": "Fetched",
+      "entries": 20
+    },
+    "Microsoft Research": {
+      "status": "Fetched",
+      "entries": 10
+    },
+    "TechCrunch AI": {
+      "status": "Fetched",
+      "entries": 20
+    },
+    "MIT News AI": {
+      "status": "Fetched",
+      "entries": 50
+    },
+    "GitHub Blog AI": {
+      "status": "Fetched",
+      "entries": 10
+    },
+    "Google Research": {
+      "status": "Fetched",
+      "entries": 100
+    },
+    "arXiv AI": {
+      "status": "Fetched",
+      "entries": 398
+    },
+    "arXiv ML": {
+      "status": "No entries",
+      "entries": 0
+    },
+    "arXiv NLP": {
+      "status": "Fetched",
+      "entries": 177
+    },
+    "NVIDIA Developer": {
+      "status": "Fetched",
+      "entries": 100
+    },
+    "AWS AI": {
+      "status": "Fetched",
+      "entries": 20
+    },
+    "Microsoft Azure AI": {
+      "status": "Fetch failed",
+      "entries": 0
+    },
+    "Google Cloud AI": {
+      "status": "No entries",
+      "entries": 0
+    },
+    "The Gradient": {
+      "status": "Fetched",
+      "entries": 15
+    },
+    "arXiv Computer Vision": {
+      "status": "No entries",
+      "entries": 0
+    },
+    "arXiv Robotics": {
+      "status": "No entries",
+      "entries": 0
+    },
+    "arXiv Neural Computing": {
+      "status": "No entries",
+      "entries": 0
+    },
+    "arXiv Machine Learning Statistics": {
+      "status": "No entries",
+      "entries": 0
+    },
+    "MIT Robotics": {
+      "status": "Fetch failed",
+      "entries": 0
+    },
+    "Berkeley AI Research": {
+      "status": "Fetched",
+      "entries": 10
+    }
+  },
+  "published": 3,
+  "errors": 0,
+  "eligible": 64
+}
