@@ -1,0 +1,1017 @@
+{
+  "tracks": [
+    {
+      "slug": "foundations",
+      "title": "AI & Machine Learning Foundations",
+      "level": "Beginner",
+      "summary": "Learn Python, data, core ML and evaluation.",
+      "prerequisites": "Basic computer skills",
+      "duration": "4–6 weeks",
+      "modules": [
+        [
+          "Python essentials",
+          "Variables, functions, files, environments and exceptions."
+        ],
+        [
+          "Data literacy",
+          "Inspect distributions, clean missing values and identify leakage."
+        ],
+        [
+          "Supervised learning",
+          "Train classification and regression baselines."
+        ],
+        [
+          "Evaluation",
+          "Use confusion matrices, validation splits and error analysis."
+        ]
+      ],
+      "project": "Predict synthetic support ticket risk.",
+      "assessment": "Explain train/test separation; demonstrate a baseline and report precision and recall.",
+      "guides": [
+        "ml-foundations"
+      ],
+      "references": [
+        [
+          "Python tutorial",
+          "https://docs.python.org/3/tutorial/"
+        ],
+        [
+          "Google ML Crash Course",
+          "https://developers.google.com/machine-learning/crash-course/"
+        ],
+        [
+          "scikit-learn user guide",
+          "https://scikit-learn.org/stable/user_guide.html"
+        ]
+      ]
+    },
+    {
+      "slug": "deep-learning",
+      "title": "Deep Learning & Neural Networks",
+      "level": "Intermediate",
+      "summary": "Understand training loops, neural architecture and transformers.",
+      "prerequisites": "Python and ML basics",
+      "duration": "4–6 weeks",
+      "modules": [
+        [
+          "Tensors",
+          "Manipulate shapes, matrix products and batches."
+        ],
+        [
+          "Training",
+          "Loss, gradients, optimization and validation."
+        ],
+        [
+          "Neural architectures",
+          "Compare dense networks, convolution and attention."
+        ],
+        [
+          "Transformers",
+          "Follow tokenization, attention and decoding."
+        ]
+      ],
+      "project": "Train a small classifier on a public teaching dataset.",
+      "assessment": "Compare train and validation curves and explain overfitting.",
+      "guides": [
+        "transformers",
+        "ml-foundations"
+      ],
+      "references": [
+        [
+          "PyTorch basics",
+          "https://docs.pytorch.org/tutorials/beginner/basics/intro.html"
+        ],
+        [
+          "Practical Deep Learning",
+          "https://course.fast.ai/"
+        ],
+        [
+          "Attention Is All You Need",
+          "https://arxiv.org/abs/1706.03762"
+        ]
+      ]
+    },
+    {
+      "slug": "llm-apps",
+      "title": "Generative AI & LLM Engineering",
+      "level": "Intermediate",
+      "summary": "Build grounded text applications and evaluate outputs.",
+      "prerequisites": "Python, APIs and basic ML",
+      "duration": "3–5 weeks",
+      "modules": [
+        [
+          "LLM fundamentals",
+          "Tokens, context and decoding controls."
+        ],
+        [
+          "Prompt design",
+          "Structured inputs, examples and output schemas."
+        ],
+        [
+          "Integration",
+          "Server-side keys, error handling and limits."
+        ],
+        [
+          "Evaluation",
+          "Test unsupported claims, structure and latency."
+        ]
+      ],
+      "project": "Build a source-linked summarizer using public documents.",
+      "assessment": "Evaluate twenty inputs and identify unsupported statements.",
+      "guides": [
+        "transformers",
+        "llmops"
+      ],
+      "references": [
+        [
+          "Hugging Face LLM Course",
+          "https://huggingface.co/learn/llm-course/en/chapter1/1"
+        ],
+        [
+          "OpenAI developer documentation",
+          "https://platform.openai.com/docs/"
+        ]
+      ]
+    },
+    {
+      "slug": "retrieval",
+      "title": "RAG & Vector Search",
+      "level": "Intermediate",
+      "summary": "Design a retrieval pipeline that supports reliable citations.",
+      "prerequisites": "Python, APIs and LLM concepts",
+      "duration": "3–5 weeks",
+      "modules": [
+        [
+          "Ingestion",
+          "Extract text, metadata and source IDs."
+        ],
+        [
+          "Retrieval",
+          "Compare lexical, semantic and hybrid search."
+        ],
+        [
+          "Grounded generation",
+          "Build context with references and abstention."
+        ],
+        [
+          "Evaluation",
+          "Measure retrieval recall and citation support."
+        ]
+      ],
+      "project": "Build a public-document Q&A assistant.",
+      "assessment": "Report recall@k and test unanswerable and permission-scoped questions.",
+      "guides": [
+        "rag-engineering",
+        "ai-security"
+      ],
+      "references": [
+        [
+          "Retrieval-Augmented Generation paper",
+          "https://arxiv.org/abs/2005.11401"
+        ],
+        [
+          "Hugging Face LLM Course",
+          "https://huggingface.co/learn/llm-course/en/chapter1/1"
+        ]
+      ]
+    },
+    {
+      "slug": "agents",
+      "title": "Agentic AI & MCP",
+      "level": "Advanced",
+      "summary": "Integrate tools with bounded orchestration and permissions.",
+      "prerequisites": "LLM applications and API design",
+      "duration": "4–6 weeks",
+      "modules": [
+        [
+          "Tool contracts",
+          "Define schemas, validation and side effects."
+        ],
+        [
+          "Orchestration",
+          "Build deterministic steps before agent loops."
+        ],
+        [
+          "MCP integration",
+          "Understand client/server capabilities and versioning."
+        ],
+        [
+          "Guardrails",
+          "Implement limits, approval and safe failures."
+        ]
+      ],
+      "project": "Create a read-only research agent with mock tools.",
+      "assessment": "Show logs and pass denied-action, timeout and injection tests.",
+      "guides": [
+        "agents-mcp",
+        "ai-security"
+      ],
+      "references": [
+        [
+          "Hugging Face Agents Course",
+          "https://huggingface.co/learn/agents-course/en/unit0/introduction"
+        ],
+        [
+          "MCP documentation",
+          "https://modelcontextprotocol.io/"
+        ]
+      ]
+    },
+    {
+      "slug": "security",
+      "title": "AI Cybersecurity & Governance",
+      "level": "Advanced",
+      "summary": "Protect model applications, data and connected tools.",
+      "prerequisites": "Basic networking, identity and application security",
+      "duration": "4–6 weeks",
+      "modules": [
+        [
+          "Threat models",
+          "Map assets, adversaries and trust boundaries."
+        ],
+        [
+          "Data controls",
+          "Design permission checks and privacy-aware logs."
+        ],
+        [
+          "Security evaluation",
+          "Test injection and unauthorized actions in a sandbox."
+        ],
+        [
+          "Incident response",
+          "Design detection, containment and recovery."
+        ]
+      ],
+      "project": "Threat-model a fictional enterprise AI assistant.",
+      "assessment": "Document controls and evidence for ten authorized security tests.",
+      "guides": [
+        "ai-security",
+        "agents-mcp"
+      ],
+      "references": [
+        [
+          "OWASP GenAI Security",
+          "https://genai.owasp.org/"
+        ],
+        [
+          "NIST AI Risk Management Framework",
+          "https://www.nist.gov/itl/ai-risk-management-framework"
+        ]
+      ]
+    },
+    {
+      "slug": "operations",
+      "title": "LLMOps & Production AI",
+      "level": "Advanced",
+      "summary": "Measure and operate robust AI services.",
+      "prerequisites": "APIs, version control and LLM development",
+      "duration": "4–6 weeks",
+      "modules": [
+        [
+          "Evaluation",
+          "Build quality and safety regression suites."
+        ],
+        [
+          "Observability",
+          "Instrument latency, errors and token use."
+        ],
+        [
+          "Cost controls",
+          "Budget, throttle and handle provider failures."
+        ],
+        [
+          "Deployment",
+          "Stage rollouts and rollback safely."
+        ]
+      ],
+      "project": "Build an evaluation harness for a public-data assistant.",
+      "assessment": "Demonstrate version comparisons, failure recovery and a rollback plan.",
+      "guides": [
+        "llmops",
+        "rag-engineering"
+      ],
+      "references": [
+        [
+          "OpenTelemetry documentation",
+          "https://opentelemetry.io/docs/"
+        ],
+        [
+          "OpenAI developer documentation",
+          "https://platform.openai.com/docs/"
+        ],
+        [
+          "NIST AI Risk Management Framework",
+          "https://www.nist.gov/itl/ai-risk-management-framework"
+        ]
+      ]
+    },
+    {
+      "slug": "research",
+      "title": "AI Research & Open Models",
+      "level": "Intermediate",
+      "summary": "Read research critically and reproduce small experiments.",
+      "prerequisites": "ML basics and Python",
+      "duration": "3–5 weeks",
+      "modules": [
+        [
+          "Paper reading",
+          "Identify hypothesis, baseline, data and limitations."
+        ],
+        [
+          "Model cards",
+          "Review licenses, usage constraints and evaluation."
+        ],
+        [
+          "Reproduction",
+          "Repeat a small experiment with a fixed seed."
+        ],
+        [
+          "Communication",
+          "Explain results, uncertainty and limitations."
+        ]
+      ],
+      "project": "Write a reproducibility report for a small public experiment.",
+      "assessment": "Separate author claims from your observations and cite primary sources.",
+      "guides": [
+        "transformers",
+        "ml-foundations"
+      ],
+      "references": [
+        [
+          "arXiv AI research",
+          "https://arxiv.org/list/cs.AI/recent"
+        ],
+        [
+          "Practical Deep Learning",
+          "https://course.fast.ai/"
+        ],
+        [
+          "Hugging Face LLM Course",
+          "https://huggingface.co/learn/llm-course/en/chapter1/1"
+        ]
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "slug": "ml-foundations",
+      "title": "Machine Learning from First Principles",
+      "category": "Machine learning",
+      "level": "Beginner",
+      "summary": "Build intuition for data, models, training, leakage and evaluation before choosing a neural network.",
+      "outcomes": [
+        "Distinguish training and inference",
+        "Choose a baseline and metric",
+        "Recognize leakage"
+      ],
+      "sections": [
+        [
+          "Start with a decision, not a model",
+          [
+            "Suppose a support team wants to identify tickets likely to breach their response target. A model can estimate risk from information available at ticket creation: product, severity and queue workload. The target is whether the ticket eventually breached its target. Do not include resolution timestamps or later escalation fields as inputs; they reveal the answer and produce misleading test results.",
+            "Define the decision that follows a prediction. A false positive might consume an engineer’s time; a false negative might miss an important incident. This cost determines whether you need a classification threshold, a ranking or a calibrated probability."
+          ]
+        ],
+        [
+          "Training, validation and test data",
+          [
+            "Training adjusts model parameters. Validation helps select features, hyperparameters and decision thresholds. The test set is reserved for an unbiased final estimate. For time-dependent tickets, split by date rather than randomly mixing future and historical incidents. If several rows belong to the same incident, keep them together.",
+            "Start with a simple baseline: predict the majority class or use logistic regression with a small feature set. Compare more complex models to that baseline under the same split. If the improvement is small, the simpler model may be cheaper and easier to operate."
+          ]
+        ],
+        [
+          "Measure what matters",
+          [
+            "Accuracy alone hides poor performance when breaches are rare. Precision is the share of flagged tickets that really breach; recall is the share of actual breaches detected. A confusion matrix reveals false positives and false negatives. Choose a threshold based on capacity and business impact, not automatically 0.5.",
+            "Track the same metrics by product, severity and time period. A useful global score can conceal weak performance on a newly introduced product. After deployment, compare live input distributions and eventual outcomes with the training baseline. Drift is a signal to investigate, not proof that retraining will help."
+          ]
+        ],
+        [
+          "Operational checklist",
+          [
+            "Record the dataset snapshot, split rule, feature transformations, model version and metric definition. Fit preprocessing only on training data; apply the fitted transformation to later splits. Establish a manual fallback when input fields are missing. Log predictions and outcomes without retaining unnecessary sensitive information."
+          ]
+        ]
+      ],
+      "exercise": "Create a synthetic ticket dataset with a rare breach class. Compare a majority baseline and a classifier; explain which errors matter.",
+      "quiz": [
+        [
+          "Why is resolution time a bad feature at ticket creation?",
+          "It is unavailable then and leaks information about the target."
+        ],
+        [
+          "When can accuracy be misleading?",
+          "When the classes are imbalanced or error costs differ."
+        ]
+      ],
+      "references": [
+        [
+          "Google ML Crash Course",
+          "https://developers.google.com/machine-learning/crash-course/"
+        ],
+        [
+          "scikit-learn user guide",
+          "https://scikit-learn.org/stable/user_guide.html"
+        ],
+        [
+          "Python tutorial",
+          "https://docs.python.org/3/tutorial/"
+        ]
+      ],
+      "code": "y = [1, 0, 1, 0, 0, 1]\npred = [1, 1, 1, 0, 0, 0]\ntp = sum(a == b == 1 for a, b in zip(y, pred))\nfp = sum(a == 0 and b == 1 for a, b in zip(y, pred))\nfn = sum(a == 1 and b == 0 for a, b in zip(y, pred))\nprint(\"precision\", tp / (tp + fp))\nprint(\"recall\", tp / (tp + fn))",
+      "code_note": "Pure Python example using synthetic labels; expected precision and recall are both 2/3."
+    },
+    {
+      "slug": "transformers",
+      "title": "Inside a Transformer: From Tokens to Predictions",
+      "category": "Deep learning",
+      "level": "Intermediate",
+      "summary": "Understand tokens, embeddings, attention, training and inference without confusing fluent generation with knowledge.",
+      "outcomes": [
+        "Trace a token through a decoder",
+        "Understand context and KV caches",
+        "Design a useful evaluation"
+      ],
+      "sections": [
+        [
+          "Tokenization is the interface",
+          [
+            "A language model usually receives token IDs, not whole words. A tokenizer maps text to a vocabulary of pieces. The embedding table converts each ID into a learned vector. Position information distinguishes order; the same words in a different sequence may change the answer. Token counts depend on language, tokenizer and formatting, so character counts are only a rough proxy."
+          ]
+        ],
+        [
+          "Attention builds context",
+          [
+            "A transformer layer uses query, key and value projections of its input representations. Dot products between queries and keys determine attention weights after scaling, masking and normalization. Weighted combinations of values are transformed and passed through further layers, along with residual connections and feed-forward operations. In a causal decoder the mask prevents access to future tokens.",
+            "Multiple attention heads let a layer process different relationships in parallel. Attention weights alone are not a reliable explanation of a model’s reasoning. The output projection converts final representations into logits over the vocabulary. Sampling or decoding selects a token, then repeats the process."
+          ]
+        ],
+        [
+          "Training versus generation",
+          [
+            "Pretraining optimizes predictions across large datasets. Post-training may improve instruction following and other behaviors using additional objectives. At inference, model weights generally remain fixed while the context changes. A convincing response can be wrong because token prediction is not a database lookup. External retrieval and verification remain valuable."
+          ]
+        ],
+        [
+          "Latency and memory",
+          [
+            "Prefill processes the supplied context. Decode produces subsequent tokens one at a time. A key/value cache avoids recomputing earlier attention projections during ordinary autoregressive decoding, but consumes memory that generally grows with sequence length. Quantization can reduce weight memory; actual quality and speed depend on hardware and implementation. Measure time to first token, output rate, total latency and quality with your workload."
+          ]
+        ],
+        [
+          "Test the application, not the demo",
+          [
+            "Build a small benchmark with ordinary questions, ambiguous instructions, unsupported claims and long inputs. Preserve the prompt and model identifier for each result. Record factual errors, refusal behavior, task completion and latency. Do not treat the context window as a guarantee that the model uses every detail correctly."
+          ]
+        ]
+      ],
+      "exercise": "Compare the same question with a concise prompt, an irrelevant long context and an evidence-rich context. Record answer quality and response time.",
+      "quiz": [
+        [
+          "What does a causal mask do?",
+          "It prevents a token representation from attending to later tokens during causal modeling."
+        ],
+        [
+          "Does more context always improve accuracy?",
+          "No; irrelevant or contradictory context may degrade results."
+        ]
+      ],
+      "references": [
+        [
+          "Attention Is All You Need",
+          "https://arxiv.org/abs/1706.03762"
+        ],
+        [
+          "Hugging Face LLM Course",
+          "https://huggingface.co/learn/llm-course/en/chapter1/1"
+        ],
+        [
+          "PyTorch basics",
+          "https://docs.pytorch.org/tutorials/beginner/basics/intro.html"
+        ]
+      ]
+    },
+    {
+      "slug": "rag-engineering",
+      "title": "Build a Reliable RAG System: Beyond the Demo",
+      "category": "RAG",
+      "level": "Intermediate",
+      "summary": "A practical blueprint for retrieval, grounded answers, permission checks and measurable quality.",
+      "outcomes": [
+        "Design ingestion and retrieval",
+        "Measure retrieval separately from generation",
+        "Prevent unauthorized retrieval"
+      ],
+      "sections": [
+        [
+          "Choose RAG for the right job",
+          [
+            "A support knowledge assistant needs current runbooks, version-specific advice and citations. Retrieval-augmented generation adds relevant evidence to the model’s input rather than teaching the model all documents through weight updates. It works best when the evidence exists and can be retrieved. It cannot rescue missing, stale or incorrect source material."
+          ]
+        ],
+        [
+          "Ingestion and indexing",
+          [
+            "Extract text and preserve titles, headings, page references, product versions and permission metadata. Chunk at logical boundaries such as procedures rather than cutting every document at the same character count. Keep parent document IDs and version dates. Store embeddings alongside text and metadata; update or remove records when source documents change.",
+            "A hybrid retriever combines lexical search for exact error codes with semantic search for paraphrases. Rerank candidates if necessary and restrict to a context budget. Always enforce the caller’s access scope during retrieval; filtering citations only after generation is insufficient."
+          ]
+        ],
+        [
+          "Generation with evidence",
+          [
+            "Supply the model with relevant passages, a task instruction and stable citation IDs. Tell it to distinguish documented facts from inference and to abstain when no evidence supports an answer. Treat all retrieved content as untrusted data: a document telling the assistant to ignore security rules is not a valid instruction. Validate that cited IDs were actually retrieved and that the passages support the claims."
+          ]
+        ],
+        [
+          "Evaluation and failure isolation",
+          [
+            "Create a test set with known relevant passages, unanswerable questions, access boundaries and version conflicts. Measure recall@k for retrieval, then test claim support and completeness separately. If the answer is wrong despite correct retrieval, inspect the prompt and evidence formatting. If the right document never appears, tune chunking, filters, query formulation or reranking before changing the language model."
+          ]
+        ],
+        [
+          "Deploy with feedback",
+          [
+            "Record retriever version, latency, retrieval IDs, answer quality and user feedback in privacy-aware traces. Cache only within a suitable permission scope and document version. Set limits for context size and inference cost. Rebuild indexes incrementally and verify that removed or revoked documents are no longer retrievable."
+          ]
+        ]
+      ],
+      "exercise": "Build a tiny local retriever using public documents and deliberately include one irrelevant document. Test unknown questions and compare exact keyword matching with another retrieval approach.",
+      "quiz": [
+        [
+          "Is RAG the same as fine-tuning?",
+          "No. It retrieves evidence at inference time; fine-tuning changes model parameters."
+        ],
+        [
+          "Why filter by access before generation?",
+          "Unauthorized text must not reach the model in the first place."
+        ]
+      ],
+      "references": [
+        [
+          "Retrieval-Augmented Generation paper",
+          "https://arxiv.org/abs/2005.11401"
+        ],
+        [
+          "Hugging Face LLM Course",
+          "https://huggingface.co/learn/llm-course/en/chapter1/1"
+        ],
+        [
+          "OWASP GenAI Security",
+          "https://genai.owasp.org/"
+        ]
+      ],
+      "code": "docs = {\"runbook\": \"Restart the demo service after checking logs\",\n        \"guide\": \"Create a backup before upgrading\"}\nquery = \"backup upgrade\".split()\nranked = sorted(docs, key=lambda k: sum(w in docs[k].lower() for w in query), reverse=True)\nprint(ranked)",
+      "code_note": "Toy lexical retrieval only; not a production vector search or a complete RAG application."
+    },
+    {
+      "slug": "agents-mcp",
+      "title": "AI Agents and MCP: Building Controlled Tool Workflows",
+      "category": "Agentic AI",
+      "level": "Advanced",
+      "summary": "Learn how orchestration, tool contracts and authorization combine in a dependable agent system.",
+      "outcomes": [
+        "Distinguish agent loops from deterministic workflows",
+        "Design tool boundaries",
+        "Define approvals and audit trails"
+      ],
+      "sections": [
+        [
+          "Start with a workflow",
+          [
+            "An agent can select actions and adapt to tool results, while a deterministic workflow follows explicitly designed steps. Begin with fixed steps for stable tasks such as extracting an error code, retrieving documentation and formatting a recommendation. Use a model-driven loop only where uncertainty makes a fixed path insufficient. A model should not be the sole authority on whether an action is permitted."
+          ]
+        ],
+        [
+          "Model Context Protocol",
+          [
+            "MCP provides standardized interfaces through which compatible hosts and clients can interact with servers exposing capabilities such as tools and resources. The specific transport, authentication and capabilities depend on the selected protocol revision and implementation. MCP is not an authorization policy, and a connected server is not automatically trustworthy. Pin compatible SDK versions and review the specification."
+          ]
+        ],
+        [
+          "Control plane and execution plane",
+          [
+            "Keep planning separate from execution. Define tool input schemas, validate arguments in the backend, authenticate the caller and authorize each action independently. For a support assistant, reading public runbooks and changing production server configuration have very different risk levels. Give read-only tools narrow access by default; require explicit human approval for high-impact changes.",
+            "Treat tool responses, webpages and documents as untrusted. A malicious page can ask the model to disclose tokens or invoke another tool. Block unauthorized destinations and secret access at the execution layer. Avoid placing credentials in prompts."
+          ]
+        ],
+        [
+          "Bound the loop",
+          [
+            "Set maximum tool calls, wall-clock duration and cost per task. Give each tool a timeout and define when a retry is safe. Use idempotency keys for actions that could otherwise execute twice. If the agent cannot establish a necessary prerequisite, stop and return a precise explanation rather than improvising."
+          ]
+        ],
+        [
+          "Test realistic failures",
+          [
+            "Simulate permission denial, stale data, malformed tool output, timeout, duplicate execution and attempted instruction injection. Verify logs identify which user requested which action and what result the tool returned, with sensitive fields redacted. Compare task success and unsafe-action rates against a deterministic baseline."
+          ]
+        ]
+      ],
+      "exercise": "Implement a read-only mock support agent with a small tool registry, a five-call limit and a test that refuses a write action.",
+      "quiz": [
+        [
+          "Does MCP grant permission to every exposed tool?",
+          "No. Authorization belongs to the surrounding application and tool execution layer."
+        ],
+        [
+          "Why use idempotency?",
+          "It reduces the risk of duplicate side effects after a retry."
+        ]
+      ],
+      "references": [
+        [
+          "MCP documentation",
+          "https://modelcontextprotocol.io/"
+        ],
+        [
+          "Hugging Face Agents Course",
+          "https://huggingface.co/learn/agents-course/en/unit0/introduction"
+        ],
+        [
+          "OWASP GenAI Security",
+          "https://genai.owasp.org/"
+        ]
+      ]
+    },
+    {
+      "slug": "ai-security",
+      "title": "AI Security Engineering: A Practical Defense Blueprint",
+      "category": "AI security",
+      "level": "Advanced",
+      "summary": "Threat-model the whole AI system, from input and retrieval to tool execution and output handling.",
+      "outcomes": [
+        "Identify trust boundaries",
+        "Apply least privilege",
+        "Build a security evaluation suite"
+      ],
+      "sections": [
+        [
+          "Map the system before attacking it",
+          [
+            "Draw the user interface, API, model provider, vector store, identity provider, tools and logging service. Mark which components receive confidential information and which can perform actions. Inventory assets: customer data, credentials, model configuration, documents and business operations. A threat model should describe attacker goals, entry points and potential impacts."
+          ]
+        ],
+        [
+          "Prompt injection and data boundaries",
+          [
+            "Direct injection comes from a user input; indirect injection may arrive through documents or tool responses. Delimit untrusted text and instruct models not to execute instructions from it, but do not rely on prompts as a security boundary. Enforce permissions, output validation and action restrictions outside the model. A retrieved document cannot authorize a new operation."
+          ]
+        ],
+        [
+          "Data and identity",
+          [
+            "Use individual identities and scoped service credentials. Enforce document access control before retrieval and verify tenant isolation. Keep API keys in server-side secret storage. Never embed a provider key in a static site’s JavaScript. Redact sensitive data in traces and define a retention period. Review what external providers receive and under which contract."
+          ]
+        ],
+        [
+          "Outputs and actions",
+          [
+            "Do not send generated HTML, SQL or shell commands directly to an interpreter. Render text safely, parameterize database queries and constrain tools to allowed operations. Use sandboxed execution where appropriate. For irreversible actions, show the precise planned change and require approval from an authorized person."
+          ]
+        ],
+        [
+          "Operational defense",
+          [
+            "Build an authorized test suite containing indirect injections, cross-tenant access attempts and output-encoding cases. Include ordinary workloads to measure whether defenses harm legitimate tasks. Establish incident handling: disable affected tools, rotate exposed credentials, investigate logs, and document remediation. OWASP guidance and NIST risk management provide starting points, not a guarantee of safety."
+          ]
+        ]
+      ],
+      "exercise": "Threat-model a fictional AI support assistant. Write ten tests using synthetic data, including a prompt injection that asks the assistant to access another tenant.",
+      "quiz": [
+        [
+          "Why is a system prompt not a security boundary?",
+          "The model can misinterpret or be manipulated; enforce access policy in trusted code."
+        ],
+        [
+          "What should you do if a client-side API key is exposed?",
+          "Revoke or rotate it, remove it from public assets, and investigate unauthorized usage."
+        ]
+      ],
+      "references": [
+        [
+          "OWASP GenAI Security",
+          "https://genai.owasp.org/"
+        ],
+        [
+          "NIST AI Risk Management Framework",
+          "https://www.nist.gov/itl/ai-risk-management-framework"
+        ],
+        [
+          "MCP documentation",
+          "https://modelcontextprotocol.io/"
+        ]
+      ]
+    },
+    {
+      "slug": "llmops",
+      "title": "LLMOps: Evaluating and Operating AI in Production",
+      "category": "AI engineering",
+      "level": "Advanced",
+      "summary": "Move from promising prototypes to measurable and maintainable AI services.",
+      "outcomes": [
+        "Create an evaluation matrix",
+        "Track cost and latency",
+        "Plan safe rollouts"
+      ],
+      "sections": [
+        [
+          "Specify the service contract",
+          [
+            "Define supported tasks, required evidence, acceptable latency, privacy limits and escalation rules. An AI support assistant might answer documented configuration questions but must not invent root causes from incomplete logs. Define what a successful abstention looks like. A contract makes evaluation repeatable when prompts, models or retrieval systems change."
+          ]
+        ],
+        [
+          "Build a regression suite",
+          [
+            "Maintain representative test cases and separate development examples from held-out cases. Include factual queries, ambiguous requests, incomplete evidence, access violations and long inputs. Score correctness, citation support, completeness, safety and latency independently. Use human review for important judgments and calibrate any automated graders against it."
+          ]
+        ],
+        [
+          "Instrument the pipeline",
+          [
+            "Trace retrieval, model inference, tool calls and output validation separately. Record model and prompt versions, token use, latency, error codes and retrieval IDs. Avoid full prompt logging by default where confidential data may appear. Aggregate percentiles rather than relying solely on average latency. Keep a baseline and compare candidate versions under the same workload."
+          ]
+        ],
+        [
+          "Budget and capacity",
+          [
+            "Estimate input and output costs using the provider’s current pricing and measured token counts. Enforce per-request output limits, concurrency controls and an overall spending budget. Cache only appropriate responses with tenant, model and document-version boundaries. A timeout or provider outage should result in a controlled retry or a clear fallback, not an infinite loop."
+          ]
+        ],
+        [
+          "Release and recover",
+          [
+            "Test locally and in staging. Roll out to a limited cohort, monitor the quality and operational metrics, then expand only after criteria are met. Version the prompts, retrieval index and tool configuration alongside application code. Keep a rollback plan and audit trail. A green deployment pipeline does not prove semantic quality; verify real tasks after release."
+          ]
+        ]
+      ],
+      "exercise": "Create a scorecard for twenty synthetic support questions. Record answer correctness, evidence quality, latency and whether the assistant appropriately abstained.",
+      "quiz": [
+        [
+          "Why track p95 latency?",
+          "It reveals slow requests that averages can conceal."
+        ],
+        [
+          "What should trigger rollback?",
+          "A predefined regression in quality, reliability, security or cost, rather than subjective impressions alone."
+        ]
+      ],
+      "references": [
+        [
+          "OpenTelemetry documentation",
+          "https://opentelemetry.io/docs/"
+        ],
+        [
+          "OpenAI developer documentation",
+          "https://platform.openai.com/docs/"
+        ],
+        [
+          "NIST AI Risk Management Framework",
+          "https://www.nist.gov/itl/ai-risk-management-framework"
+        ]
+      ]
+    }
+  ],
+  "library": [
+    {
+      "category": "Foundations",
+      "title": "Python tutorial",
+      "url": "https://docs.python.org/3/tutorial/",
+      "summary": "Programming fundamentals and standard library."
+    },
+    {
+      "category": "Foundations",
+      "title": "Google ML Crash Course",
+      "url": "https://developers.google.com/machine-learning/crash-course/",
+      "summary": "Core ML concepts and exercises."
+    },
+    {
+      "category": "Foundations",
+      "title": "Stanford CS229",
+      "url": "https://cs229.stanford.edu/",
+      "summary": "Mathematical machine learning course materials."
+    },
+    {
+      "category": "Foundations",
+      "title": "Kaggle Learn",
+      "url": "https://www.kaggle.com/learn",
+      "summary": "Practical data science exercises."
+    },
+    {
+      "category": "Foundations",
+      "title": "scikit-learn",
+      "url": "https://scikit-learn.org/stable/user_guide.html",
+      "summary": "Preprocessing, model selection and evaluation."
+    },
+    {
+      "category": "Deep learning",
+      "title": "PyTorch tutorials",
+      "url": "https://docs.pytorch.org/tutorials/",
+      "summary": "Neural network implementation and training."
+    },
+    {
+      "category": "Deep learning",
+      "title": "fast.ai",
+      "url": "https://course.fast.ai/",
+      "summary": "Practical deep learning course."
+    },
+    {
+      "category": "Deep learning",
+      "title": "TensorFlow tutorials",
+      "url": "https://www.tensorflow.org/tutorials",
+      "summary": "Training and deployment examples."
+    },
+    {
+      "category": "Deep learning",
+      "title": "Keras guides",
+      "url": "https://keras.io/guides/",
+      "summary": "High-level neural network workflows."
+    },
+    {
+      "category": "LLMs",
+      "title": "Hugging Face LLM Course",
+      "url": "https://huggingface.co/learn/llm-course/en/chapter1/1",
+      "summary": "Tokenizers, transformers and model workflows."
+    },
+    {
+      "category": "LLMs",
+      "title": "OpenAI API documentation",
+      "url": "https://platform.openai.com/docs/",
+      "summary": "Model integration and API patterns."
+    },
+    {
+      "category": "LLMs",
+      "title": "Anthropic documentation",
+      "url": "https://docs.anthropic.com/",
+      "summary": "Claude development documentation."
+    },
+    {
+      "category": "LLMs",
+      "title": "Google Gemini API",
+      "url": "https://ai.google.dev/",
+      "summary": "Gemini developer resources."
+    },
+    {
+      "category": "LLMs",
+      "title": "Hugging Face Hub",
+      "url": "https://huggingface.co/models",
+      "summary": "Model discovery and model cards."
+    },
+    {
+      "category": "Agents & MCP",
+      "title": "Hugging Face Agents Course",
+      "url": "https://huggingface.co/learn/agents-course/en/unit0/introduction",
+      "summary": "Agent development concepts and exercises."
+    },
+    {
+      "category": "Agents & MCP",
+      "title": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/",
+      "summary": "Protocol specifications and implementation resources."
+    },
+    {
+      "category": "Agents & MCP",
+      "title": "LangChain documentation",
+      "url": "https://docs.langchain.com/",
+      "summary": "Agent and application orchestration."
+    },
+    {
+      "category": "Agents & MCP",
+      "title": "OpenAI Agents SDK",
+      "url": "https://openai.github.io/openai-agents-python/",
+      "summary": "Agent development in Python."
+    },
+    {
+      "category": "RAG & data",
+      "title": "LlamaIndex documentation",
+      "url": "https://docs.llamaindex.ai/",
+      "summary": "Data ingestion and retrieval workflows."
+    },
+    {
+      "category": "RAG & data",
+      "title": "Qdrant documentation",
+      "url": "https://qdrant.tech/documentation/",
+      "summary": "Vector search and filtering."
+    },
+    {
+      "category": "RAG & data",
+      "title": "pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "summary": "Vector search in PostgreSQL."
+    },
+    {
+      "category": "RAG & data",
+      "title": "RAG foundational paper",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "summary": "Research on retrieval-augmented generation."
+    },
+    {
+      "category": "AI security",
+      "title": "OWASP GenAI Security",
+      "url": "https://genai.owasp.org/",
+      "summary": "Risk guidance and mitigation resources."
+    },
+    {
+      "category": "AI security",
+      "title": "NIST AI RMF",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "summary": "AI risk management framework."
+    },
+    {
+      "category": "AI security",
+      "title": "MITRE ATLAS",
+      "url": "https://atlas.mitre.org/",
+      "summary": "Knowledge base for adversarial threats to AI systems."
+    },
+    {
+      "category": "AI security",
+      "title": "Google Secure AI Framework",
+      "url": "https://saif.google/",
+      "summary": "Security framework and risk resources."
+    },
+    {
+      "category": "Production AI",
+      "title": "OpenTelemetry",
+      "url": "https://opentelemetry.io/docs/",
+      "summary": "Tracing and observability."
+    },
+    {
+      "category": "Production AI",
+      "title": "MLflow",
+      "url": "https://mlflow.org/docs/latest/",
+      "summary": "Experiment tracking and model lifecycle."
+    },
+    {
+      "category": "Production AI",
+      "title": "vLLM documentation",
+      "url": "https://docs.vllm.ai/",
+      "summary": "Model serving and inference."
+    },
+    {
+      "category": "Production AI",
+      "title": "ONNX Runtime",
+      "url": "https://onnxruntime.ai/docs/",
+      "summary": "Cross-platform model execution."
+    },
+    {
+      "category": "Research",
+      "title": "arXiv AI",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "summary": "Recent AI preprints; not necessarily peer reviewed."
+    },
+    {
+      "category": "Research",
+      "title": "OpenReview",
+      "url": "https://openreview.net/",
+      "summary": "Research submissions and reviews."
+    },
+    {
+      "category": "Research",
+      "title": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/",
+      "summary": "Scholarly literature discovery."
+    },
+    {
+      "category": "Research",
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "summary": "Foundational transformer paper."
+    },
+    {
+      "category": "Multimodal",
+      "title": "Hugging Face audio course",
+      "url": "https://huggingface.co/learn/audio-course/",
+      "summary": "Audio ML learning materials."
+    },
+    {
+      "category": "Multimodal",
+      "title": "Hugging Face diffusion course",
+      "url": "https://huggingface.co/learn/diffusion-course/",
+      "summary": "Diffusion model learning materials."
+    },
+    {
+      "category": "Enterprise AI",
+      "title": "Salesforce Trailhead",
+      "url": "https://trailhead.salesforce.com/",
+      "summary": "Enterprise AI and Salesforce learning paths."
+    },
+    {
+      "category": "Enterprise AI",
+      "title": "AWS Machine Learning",
+      "url": "https://aws.amazon.com/machine-learning/",
+      "summary": "Cloud ML services and resources."
+    },
+    {
+      "category": "Enterprise AI",
+      "title": "Microsoft Learn AI",
+      "url": "https://learn.microsoft.com/en-us/ai/",
+      "summary": "AI learning and cloud development resources."
+    },
+    {
+      "category": "Enterprise AI",
+      "title": "Google Cloud AI",
+      "url": "https://cloud.google.com/ai",
+      "summary": "Cloud AI products and documentation."
+    }
+  ]
+}
