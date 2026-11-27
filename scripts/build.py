@@ -51,3 +51,19 @@ page('Search', '<section><div class="eyebrow">DISCOVER / LIBRARY</div><h1>Search
 (OUT/'CNAME').write_text('www.techiehacker.com\n');(OUT/'.nojekyll').touch()
 urls=['https://www.techiehacker.com/'+str(p.relative_to(OUT).parent).replace('.','',1).strip('/')+('/' if p.parent!=OUT else '') for p in OUT.rglob('index.html')];(OUT/'sitemap.xml').write_text('<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+E(u)+'</loc></url>' for u in urls)+'</urlset>');(OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: https://www.techiehacker.com/sitemap.xml\n')
 print('Built',len(list(OUT.rglob('index.html'))),'pages')
+
+# TECHIEHACKER_NATURAL_EDITION_V1
+from pathlib import Path as _NaturalPath
+from natural_home import render as _render_natural
+_natural_root = _NaturalPath(__file__).resolve().parents[1]
+_render_natural(_natural_root, _natural_root / "dist")
+
+# TECHIEHACKER_ORIGINAL_PHOTO_EDITION_V1
+from pathlib import Path as _OriginalPhotoPath
+from author_release import render as _render_original_photos
+_original_photo_root = _OriginalPhotoPath(__file__).resolve().parents[1]
+_render_original_photos(_original_photo_root, _original_photo_root / "dist")
+
+# TECHIEHACKER_PREMIUM_INTERIORS_V1
+from premium_interiors import render as _render_premium_interiors
+_render_premium_interiors(_original_photo_root, _original_photo_root / "dist")
