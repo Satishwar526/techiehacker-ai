@@ -20,7 +20,7 @@ for p in pages:
         if target.is_dir():target=target/'index.html'
         count+=1
         if not target.is_file() or not target.is_relative_to(ROOT.resolve()):missing.append(f'{p.relative_to(ROOT)}: {u}')
-for path in ('news','academy','insights','library','lab','search'):
+for path in ('news','academy','insights','library','lab','search','blogs','about'):
     assert (ROOT/path/'index.html').is_file(),path
 idx=json.loads((ROOT/'search-index.json').read_text())
 for record in idx:
@@ -31,3 +31,10 @@ for record in idx:
         if not target.is_file():missing.append('search-index: '+record['url'])
 print(f'{len(pages)} pages; {count} local references; {len(idx)} search records; {len(missing)} missing targets')
 if missing:raise SystemExit('\n'.join(missing))
+
+blogs=json.loads((ROOT.parent/"blogs.json").read_text())
+assert len(blogs)>=200 and len({b["slug"] for b in blogs})==len(blogs)
+for b in blogs:
+    text=(ROOT/"blogs"/b["slug"]/"index.html").read_text()
+    assert "Author: Satishwar Mallekedi" in text and "Where we need caution" in text,b["slug"]
+print(f"{len(blogs)} authored blog pages verified")
