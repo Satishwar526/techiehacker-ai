@@ -1,5 +1,35 @@
 [
   {
+    "title": "Nvidia Halts Chip Shipments to Southeast Asia Amid U.S. Restrictions",
+    "summary": "Nvidia has ordered its manufacturing partners to temporarily suspend server chip shipments to Malaysia, Singapore, Thailand, and Indonesia. This decision aligns with the U.S. government's increasing efforts to regulate and control AI chip exports, aimed particularly at preventing technology from reaching China.",
+    "impact": "The pause in shipments may disrupt the tech supply chain in Southeast Asia, potentially affecting local economies and AI development efforts. The long-term implications are yet to be fully understood.",
+    "category": "AI Regulation",
+    "id": "979e22972f743c1451fe",
+    "source": "TechCrunch AI",
+    "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+    "date": "2026-11-26"
+  },
+  {
+    "title": "NVIDIA Celebrates Community Bonds Through GeForce NOW Cloud Gaming",
+    "summary": "NVIDIA's GeForce NOW platform highlights the importance of community in gaming, showcasing how friendships and shared experiences flourish in virtual environments. This week's focus is on the contributions of community members and creators who enhance the gaming experience. As cloud gaming continues to evolve, NVIDIA emphasizes the social aspect of gaming, encouraging users to connect and form lasting ties.",
+    "impact": "While NVIDIA promotes community building through gaming, the reliance on cloud services raises concerns about data privacy and online safety. Users should approach these platforms with awareness of potential risks.",
+    "category": "Cloud Gaming",
+    "id": "bfa1ad995803f938bdb5",
+    "source": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+    "date": "2026-11-26"
+  },
+  {
+    "title": "New Framework for Sequential Hypothesis Testing on Complex Data Streams",
+    "summary": "A recent study presents innovative test statistics for Sequential Hypothesis Testing (SHT) and Sequential Change Point Detection (SCPD) in environments with high-dimensional and complex data streams. This approach addresses limitations of traditional models, particularly in scenarios where data only exists from pre-change conditions, such as detecting zero-day attacks. The framework shows strong performance across various applications without needing extensive model retraining, providing rigorous error control and better detection capabilities than existing methods.",
+    "impact": "This development may significantly enhance methods for monitoring critical systems where conventional algorithms struggle, potentially improving the detection of anomalies in real-time data streams. However, the trade-offs and practical implications of implementing this technology require careful evaluation.",
+    "category": "Machine Learning",
+    "id": "f01d41ca8dc6438f3b95",
+    "source": "arXiv ML",
+    "url": "https://arxiv.org/abs/2611.33238",
+    "date": "2026-11-26"
+  },
+  {
     "title": "Google Gemini Partners with Golden State for Enhanced Fan Experiences",
     "summary": "Google AI has announced a partnership with the Golden State Warriors to integrate Gemini technology into fan experiences and business operations for the Warriors, Valkyries, and Chase Center. This collaboration aims to modernize how fans engage with the organization and streamline operations across various platforms.",
     "impact": "This partnership could significantly enhance fan engagement and operational efficiency. However, the long-term effects on the audience's experience and organizational dynamics remain uncertain.",
