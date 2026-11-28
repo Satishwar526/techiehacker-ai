@@ -60,6 +60,36 @@
     "date": "2026-11-26"
   },
   {
+    "title": "OpenAI Merges Chat and Work Experiences in ChatGPT, Alerts Users to Usage Limits",
+    "summary": "OpenAI has announced a new system that combines the Chat and Work functionalities in ChatGPT, introducing a unified usage meter. This change may result in heavy users encountering their limits sooner than before, prompting users to monitor their interactions more closely.",
+    "impact": "The update could lead to increased caution among users as they navigate potential limitations in access. While this may enhance resource management, it also raises questions about the scalability of the platform’s services.",
+    "category": "Usage Limits",
+    "id": "fb19c642f1b755843408",
+    "source": "TechCrunch AI",
+    "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+    "date": "2026-11-25"
+  },
+  {
+    "title": "Optimizing NVFP4 Attention on NVIDIA RTX Blackwell",
+    "summary": "A recent post on NVIDIA Developer discusses strategies for optimizing NVFP4 Attention on RTX Blackwell GPUs. The focus is on mitigating the computational demands of long-sequence inference, which can become a bottleneck for world foundation models. Techniques such as register recycling are highlighted to enhance efficiency.",
+    "impact": "These findings may improve inference performance for advanced AI models on NVIDIA hardware, although practical results will depend on further empirical testing and validation across various applications.",
+    "category": "AI Hardware Optimization",
+    "id": "0c715b98f7c82532f46d",
+    "source": "NVIDIA Developer",
+    "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+    "date": "2026-11-25"
+  },
+  {
+    "title": "Guidelines for Application Modernization Using GitHub Copilot",
+    "summary": "A new GitHub Blog post outlines strategies for assessing legacy applications and selecting safe, incremental modernization steps. It emphasizes leveraging a GitHub Copilot agent skill to streamline the process and improve efficiency in modernizing applications.",
+    "impact": "These insights may help developers minimize risks during modernization projects, though the effectiveness of GitHub Copilot in this context requires further evaluation.",
+    "category": "AI in Software Development",
+    "id": "7d5c43e3274406d0b126",
+    "source": "GitHub Blog AI",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+    "date": "2026-11-25"
+  },
+  {
     "title": "Google Gemini Partners with Golden State for Enhanced Fan Experiences",
     "summary": "Google AI has announced a partnership with the Golden State Warriors to integrate Gemini technology into fan experiences and business operations for the Warriors, Valkyries, and Chase Center. This collaboration aims to modernize how fans engage with the organization and streamline operations across various platforms.",
     "impact": "This partnership could significantly enhance fan engagement and operational efficiency. However, the long-term effects on the audience's experience and organizational dynamics remain uncertain.",

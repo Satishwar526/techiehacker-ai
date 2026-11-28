@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-27T11:14:04.659226+00:00",
+  "checked_at": "2026-11-28T10:44:45.227377+00:00",
   "feeds": {
     "OpenAI": {
       "status": "Fetched",
@@ -11,7 +11,7 @@
     },
     "Hugging Face": {
       "status": "Fetched",
-      "entries": 918
+      "entries": 919
     },
     "Google DeepMind": {
       "status": "Fetched",
@@ -46,16 +46,16 @@
       "entries": 100
     },
     "arXiv AI": {
-      "status": "Fetched",
-      "entries": 398
+      "status": "No entries",
+      "entries": 0
     },
     "arXiv ML": {
       "status": "No entries",
       "entries": 0
     },
     "arXiv NLP": {
-      "status": "Fetched",
-      "entries": 177
+      "status": "No entries",
+      "entries": 0
     },
     "NVIDIA Developer": {
       "status": "Fetched",
@@ -104,5 +104,5 @@
   },
   "published": 3,
   "errors": 0,
-  "eligible": 64
+  "eligible": 30
 }
